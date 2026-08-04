@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: kafkabasic
-          image: yklee2002/kafkabasic:latest
+          image: toomooroo/kafkabasic:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
@@ -40,4 +40,4 @@ spec:
     - name: http
       port: 8080
       targetPort: 8080
-      nodePort: 30080
+      nodePort: 30180
